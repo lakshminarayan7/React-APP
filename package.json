@@ -1,11 +1,11 @@
 {
   "name": "crud-app",
   "version": "1.0.0",
-  "description": "",
+  "description": "This is a simple crud project for beginners built with the following technologies:\r - [React](https://facebook.github.io/react/) and [React Router](https://reacttraining.com/react-router/) for the frontend\r - [Express](http://expressjs.com/) and [Mongoose](http://mongoosejs.com/) for the backend",
   "main": "server.js",
   "scripts": {
     "client-install": "cd client && npm install",
-    "start": "node server.js",
+    "start": "nodemon server.js",
     "server": "nodemon server.js",
     "client": "npm start --prefix client",
     "dev": "concurrently \"npm run server\" \"npm run client\""
@@ -25,5 +25,13 @@
   },
   "devDependencies": {
     "nodemon": "^2.0.6"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/harounchebbi/Mern-Stack-Crud-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/harounchebbi/Mern-Stack-Crud-App/issues"
+  },
+  "homepage": "https://github.com/harounchebbi/Mern-Stack-Crud-App#readme"
 }
